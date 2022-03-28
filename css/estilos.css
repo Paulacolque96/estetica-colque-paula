@@ -1,0 +1,32 @@
+/*header*/
+.color{
+    background-color:#E7CDBA;
+}
+
+/*main*/
+.img-carrousel{
+    height: 90vh;
+    object-fit: cover;
+}
+.btn-primary{
+    background-color:#c6a385;
+    border: #E7CDBA;
+}
+li{
+    list-style: none;
+    text-decoration: none;  
+}
+.redes li,a{
+    margin: 10px;
+    display: inline-block;
+    color: #ffffff;
+}
+.border{
+    border: #c6a385;
+}
+
+/*contacto*/
+.contacto{
+    color: #c6a385;
+    height: 2rem;
+}
