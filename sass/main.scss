@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap');
+/*variables*/
+$claro:#E7CDBA;
+$oscuro:#c6a385;
+$blanco:#ffffff;
+
+body{
+    font-family: 'merriwheather';
+    font-size: 1.5rem;
+}
+/*header*/
+.color{
+    background-color:$claro;
+}
+header{
+    h2{
+        color: $blanco;
+        font-style: italic;
+        padding-left: 10px;
+    }
+}
+
+/*main*/
+.img-carrousel{
+    height: 90vh;
+    object-fit: cover;
+}
+.btn-light{
+    background-color:$oscuro;
+    color:$blanco ;
+    border-color: $claro;
+    margin: 10px;
+    
+}
+li{
+    list-style: none;
+    text-decoration: none;  
+}
+.redes{
+    li{
+        display: inline-block;
+        margin: 10px;
+        a{
+            color: $blanco;
+            font-size: 1.5rem;
+        }
+    }
+}
+.border{
+    border:$oscuro;
+}
+
+.titulo{
+    -webkit-animation: titulo 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: titulo 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes titulo {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  @keyframes titulo {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+ 
+  
+/*contacto*/
+.contacto{
+    color: $oscuro;
+    margin: 10px;
+    font-size: 4rem;
+}
